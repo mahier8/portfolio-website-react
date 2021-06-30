@@ -1,33 +1,31 @@
-import React from "react";
 import "./topbar.scss";
-import PersonIcon from '@material-ui/icons/Person';
-import MailIcon from '@material-ui/icons/Mail';
+import { Person, Mail } from "@material-ui/icons";
 
-function Topbar() {
+export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className="topbar">
+    <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">genius.</a>
-          <div className ="itemContainer">
-            <PersonIcon className="icon" />
-            <span>+44 955 44 58</span>
+          <a href="#intro" className="logo">
+            genius.
+          </a>
+          <div className="itemContainer">
+            <Person className="icon" />
+            <span>+44 924 12 74</span>
           </div>
-          <div className ="itemContainer">
-            <MailIcon className="icon" />
-            <span>someone@gmail.com</span>
+          <div className="itemContainer">
+            <Mail className="icon" />
+            <span>someemail.com</span>
           </div>
         </div>
         <div className="right">
-          <div className="hamburger">
+          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
-            <span className="line1"></span>
-            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-export default Topbar;
