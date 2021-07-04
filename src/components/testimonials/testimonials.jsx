@@ -5,28 +5,27 @@ function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
-      img: "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/twitter.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+      name: "Peter Christie",
+      title: "Senior Teacher",
+      img: "assets/fastone-logo.png",
+      icon: "assets/fastone-logo.png",
+      desc: "Mahier brought his energetic, engaging personality and a positive attitude towards language teaching that really resonated with his students.",
+      
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
-      img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/youtube.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      name: "Sonja Bernard",
+      title: "Head of Career Counselling and Academic Development",
+      img: "assets/unisa-logo.png",
+      desc: "He is a serious person with regards to his career aspirations and put effort into mastering a new set of skills related to interpersonal communication and sensitivity for diversity.",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
-      img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/linkedin.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+      name: "Won S. Yang",
+      title: "CEO of Trued",
+      img: "assets/trued-logo.png",
+      desc: "He performs at the highest level in instructing different levels of students with excellent reviews from the students and management.",
     },
   ];
 

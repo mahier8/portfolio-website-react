@@ -1,5 +1,5 @@
 import Intro from "./components/intro/intro";
-import Topbar from "./components/topbar/topbar";
+import Navbar from "./components/topbar/Navbar";
 import Portfolio from "./components/portfolio/portfolio";
 import Works from "./components/works/works";
 import Testimonials from "./components/testimonials/testimonials";
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />

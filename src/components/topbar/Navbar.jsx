@@ -1,21 +1,21 @@
-import "./topbar.scss";
+import "./navbar.scss";
 import { Person, Mail } from "@material-ui/icons";
 
-export default function Topbar({ menuOpen, setMenuOpen }) {
+function Navbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className={"topbar " + (menuOpen && "active")}>
+    <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            genius.
+            Portfolio
           </a>
           <div className="itemContainer">
             <Person className="icon" />
-            <span>+44 924 12 74</span>
+            <span>+82 010 4209 2304</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>someemail.com</span>
+            <span>mahier.sydow8@gmail.com</span>
           </div>
         </div>
         <div className="right">
@@ -29,3 +29,5 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     </div>
   );
 }
+
+export default Navbar;
