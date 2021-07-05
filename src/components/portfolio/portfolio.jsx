@@ -19,11 +19,11 @@ export default function Portfolio() {
     },
     {
       id: "web",
-      title: "Web App",
+      title: "Web Apps",
     },
     {
       id: "mobile",
-      title: "Mobile App",
+      title: "Small Apps",
     },
     {
       id: "design",
@@ -77,7 +77,7 @@ export default function Portfolio() {
               src={d.img}
               alt=""
             />
-            <h3>{d.title}</h3>
+            <h3><a href={d.URL} target="_blank" rel="noreferrer">{d.title}</a></h3>
           </div>
         ))}
       </div>

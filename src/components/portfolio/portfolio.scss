@@ -50,7 +50,6 @@
       color: white;
       position: relative;
       transition: all .5s ease;
-      cursor: pointer;
 
       @include mobile{
         width: 130px;
@@ -60,6 +59,11 @@
       h3 {
         position: absolute;
         font-size: 20px;
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
       }
 
       img {
@@ -74,6 +78,11 @@
         img {
           opacity: 0.2;
           z-index: 0;
+        }
+        a {
+          cursor: pointer;
+          transition: all 0.5s ease-in-out;
+          font-size: 23px;
         }
       }
     }
