@@ -6,30 +6,30 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
+      icon: "./assets/icons/icons8-briefcase-50-white.png",
+      title: "Career",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "I have been developing projects for the past two years. I started my development journey by completing a few certifications with FreeCodeCamp and then moved swiftly to develop a portfolio. I then continued by focusing on front-end development, leading me to specialize in React.",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "./assets/portfolio-images/Mahier-Sydow-photo.jpg",
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
+      icon: "./assets/icons/icons8-africa-50.png",
+      title: "Background",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Originally from a psychology an educational background, I taught children and adults in South Korea for 7 years, learning many valuable skills along the way. I am from South Africa and, I have a Bachelor's Degree in Psychology and a Master's Degree in Applied Linguistics.",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "./assets/portfolio-images/KakaoTalk_20210706_121610089_02.jpg",
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
+      icon: "./assets/icons/icons8-soccer-50.png",
+      title: "Hobbies",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Outside of development and education I spend most of my time with my family or playing football. I have been a Liverpool FC supporter for 30 years, and, with the help of my Wife, we visited Anfield for our honeymoon.",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "./assets/portfolio-images/KakaoTalk_20210706_120748813.jpg",
     },
   ];
 
@@ -55,12 +55,12 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <span>Read More</span>
                 </div>
               </div>
               <div className="right">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src={d.img}
                   alt=""
                 />
               </div>
