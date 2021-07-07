@@ -1,5 +1,7 @@
 import "./navbar.scss";
 import { Person, Mail } from "@material-ui/icons";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function Navbar({ menuOpen, setMenuOpen }) {
   return (
@@ -7,7 +9,7 @@ function Navbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Portfolio
+            Mahier
           </a>
           <div className="itemContainer">
             <Person className="icon" />
@@ -16,6 +18,12 @@ function Navbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <Mail className="icon" />
             <span>mahier.sydow8@gmail.com</span>
+          </div>
+          <div className="itemContainer">
+            <a href="https://github.com/mahier8" target="_blank"><GitHubIcon className="icon github" /></a>
+          </div>
+          <div className="itemContainer">
+          <a href="https://www.linkedin.com/in/mahier-sydow-b4679166/" target="_blank"><LinkedInIcon className="icon linkedIn" /></a>
           </div>
         </div>
         <div className="right">

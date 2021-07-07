@@ -7,8 +7,7 @@ function Testimonials() {
       id: 1,
       name: "Peter Christie",
       title: "Senior Teacher",
-      img: "assets/fastone-logo.png",
-      icon: "assets/fastone-logo.png",
+      img: "assets/fastone-logo2.png",
       desc: "Mahier brought his energetic, engaging personality and a positive attitude towards language teaching that really resonated with his students.",
       
     },
