@@ -20,10 +20,10 @@ function Navbar({ menuOpen, setMenuOpen }) {
             <span>mahier.sydow8@gmail.com</span>
           </div>
           <div className="itemContainer">
-            <a href="https://github.com/mahier8" target="_blank"><GitHubIcon className="icon github" /></a>
+            <a href="https://github.com/mahier8" target="_blank" rel="noreferrer"><GitHubIcon className="icon github" /></a>
           </div>
           <div className="itemContainer">
-          <a href="https://www.linkedin.com/in/mahier-sydow-b4679166/" target="_blank"><LinkedInIcon className="icon linkedIn" /></a>
+          <a href="https://www.linkedin.com/in/mahier-sydow-b4679166/" target="_blank" rel="noreferrer"><LinkedInIcon className="icon linkedIn" /></a>
           </div>
         </div>
         <div className="right">
