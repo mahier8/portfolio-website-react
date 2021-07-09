@@ -66,9 +66,14 @@
         border-radius: 10px;
         font-weight: 500;
         cursor: pointer;
+        opacity:0.6;
 
         &:focus {
           outline: none;
+        }
+
+        &:hover {
+          opacity: 1;
         }
       }
 

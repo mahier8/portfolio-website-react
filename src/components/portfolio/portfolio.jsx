@@ -19,19 +19,19 @@ export default function Portfolio() {
     },
     {
       id: "web",
-      title: "Web Apps",
+      title: "Websites",
     },
     {
       id: "mobile",
-      title: "Small Apps",
+      title: "Apps",
     },
     {
       id: "design",
-      title: "Design",
+      title: "Ongoing",
     },
     {
       id: "content",
-      title: "Content",
+      title: "Components",
     },
   ];
 

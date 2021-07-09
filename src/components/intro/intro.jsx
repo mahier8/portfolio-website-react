@@ -9,7 +9,7 @@ function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      strings: ["Front-end Developer", "Software Developer", "Freelancer"]
+      strings: ["Front-end Developer", "Full-stack Developer", "Freelancer"]
     });
   }, []);
 
