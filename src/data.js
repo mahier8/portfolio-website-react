@@ -71,7 +71,7 @@ export const featuredPortfolio = [
   export const mobilePortfolio = [
     {
       id: 5,
-      title: "Ingredients List",
+      title: "Ingredients List App",
       img: "../../assets/images/james-lee-Mfjq1hi-lVg-unsplash.jpg",
       URL: 
         "https://priceless-thompson-00aa61.netlify.app",
@@ -107,6 +107,14 @@ export const featuredPortfolio = [
       URL: 
         "https://brave-kilby-f39ec9.netlify.app",
     },
+    {
+      id: 5,
+      title: "Movie List API",
+      img:
+        "../../assets/images/sean-benesh-6Nbo9Pn0yJA-unsplash.jpg",
+      URL: 
+        "https://60eac0fb35cf884c47fae4f8--eloquent-poitras-8bbaf7.netlify.app/",
+    },
   ];
   
   export const designPortfolio = [
@@ -140,5 +148,12 @@ export const featuredPortfolio = [
       img: "../../assets/images/markus-spiske-bMvuh0YQQ68-unsplash.jpg",
       URL: 
         "https://heuristic-wilson-c148d9.netlify.app",
+    },
+    {
+      id: 5,
+      title: "Movie List: Star Wars API",
+      img: "../../assets/images/daniel-cheung-B7N0IjiIJYo-unsplash.jpg",
+      URL: 
+        "https://60eac15f6f32a8c8908c06a1--jolly-johnson-f7127d.netlify.app/",
     },
   ];
