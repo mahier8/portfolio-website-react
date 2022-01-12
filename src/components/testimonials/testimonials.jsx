@@ -9,7 +9,6 @@ function Testimonials() {
       title: "Senior Teacher",
       img: "assets/fastone-logo2.png",
       desc: "Mahier brought his energetic, engaging personality and a positive attitude towards language teaching that really resonated with his students.",
-      
     },
     {
       id: 2,
@@ -33,7 +32,7 @@ function Testimonials() {
       <h1>Testimonials</h1>
       <div className="container">
         {data.map((d) => (
-          <div className={d.featured ? "card featured" : "card"}>
+          <div key={d.id} className={d.featured ? "card featured" : "card"}>
             <div className="top">
               <img src="assets/right-arrow.png" className="left" alt="" />
               <img className="user" src={d.img} alt="" />

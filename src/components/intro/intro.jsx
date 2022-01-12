@@ -9,7 +9,7 @@ function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      strings: ["Front-end Developer", "Full-stack Developer", "Freelancer"]
+      strings: ["Front-end Developer", "Full-stack Developer", "Freelancer"],
     });
   }, []);
 
@@ -17,14 +17,18 @@ function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/portfolio-images/image-no-background.png" alt="man" />
+          <img
+            src="assets/portfolio-images/image-no-background.png"
+            alt="man"
+          />
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>Mahier</h1>
-          <h3>Your <span ref={textRef}></span>
+          <h3>
+            Your <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">
